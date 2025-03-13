@@ -11,10 +11,10 @@ const port = 3000;// ห้ามต้องพอร์ตทับกับ�
 
 app.use(morgan('combined'))
 app.get("/",(req,res)=>{ //ถ้าเขาเข้ามาให้ส่งค่าอะไรกลับ
-    res.send("Copper Tech KINNAPHAT")
+    res.send("Copper Tech kinnaphat")
 
 })
-
+ 
 app.listen(port,()=>{
 
     debug("Listening on port "+chalk.green(port));
